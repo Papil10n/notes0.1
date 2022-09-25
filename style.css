@@ -1,0 +1,195 @@
+body {
+   padding-bottom: 500px;
+   background: linear-gradient(#91CDEB, #E363EB);
+}
+.wrapper {
+   width: 100%;
+   height: 100%;
+   margin-top: 10px;
+}
+.notes {
+}
+.notes__container {
+
+
+}
+.notes__liveSearch {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.notes__liveSearch input {
+   border: none;
+   font-size: 18px;
+   line-height: 1.5;
+   padding: 5px;
+   width: 700px;
+   opacity: 0.5;
+   border-radius: 10px;
+   transition: all 0.3s ease 0s;
+}
+.notes__liveSearch input:focus, .notes__liveSearch input:hover  {
+   opacity: 1;
+   transform: scale(1.01);
+
+}
+.notes__note {
+   text-align: center;
+}
+.notes__note__input {
+}
+.notes__input {
+   position: relative;
+   top: 1px;
+   border: none;
+   font-size: 19px;
+   line-height: 1.5;
+   padding: 5px;
+   width: 700px;
+   opacity: 0.5;
+   border-radius: 10px;
+   transition: all 0.3s ease 0s;
+   margin-bottom: 30px;
+   color: black;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.notes__input:hover, .notes__input:active  {
+   transform: scale(1.01);
+   opacity: 1;
+
+}
+
+.notes__submit {
+   background-color: #A9EB7A;
+   border: none;
+   padding: 12px 15px;
+   border-radius: 10px;
+   border-top-right-radius: 23px;
+   border-bottom-left-radius: 23px;
+   transition: all 0.3s ease 0s;
+}
+.notes__submit:hover {
+   background-color: #98339E;
+   color: #C6FF9E;
+}
+.notes__submit:active {
+   transform: scale(1.1);
+}
+
+.notes__note__wrapper {
+   max-width: 1350px;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+.note {
+   position: relative;
+   width: 30%;
+   border: 1px solid #000;
+   padding: 10px;
+   border-radius: 10px;
+   display: inline-flex;
+   margin: 5px;
+   background: linear-gradient( 0deg, #91CDEB);
+   transition: all 0.3s ease 0s;
+   justify-content: space-between;
+}
+.note:hover {
+   box-shadow: 2px 2px 10px black;
+}
+.note__text {
+   margin-right: 30px;
+}
+.note__title {
+   font-weight: 600;
+   font-size: 18px;
+}
+.note__subtitle {
+   display: inline-block;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 30px;
+
+}
+.note__del {
+}
+.note__subtitle input {
+   background: none;
+   
+}
+.renameBtn {
+   display: block;
+   font-size: 14px;
+   background-color: #91CDEB;
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: none;
+   padding: 8px 10px;
+   border-radius: 10px;
+   border-top-right-radius: 23px;
+   border-bottom-left-radius: 23px;
+   transition: all 0.3s ease 0s;
+}
+
+.note__del {
+}
+.deleteBtn {
+   position: relative;
+   border-radius: 5px;
+   display: block;
+   font-size: 14px;
+   background-color: #91CDEB;
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: none;
+   padding: 8px 10px;
+   border-radius: 10px;
+   border-top-right-radius: 23px;
+   border-bottom-left-radius: 23px;
+   transition: all 0.3s ease 0s;
+}
+.deleteBtn:active {
+   background-color: tomato;
+   transition: all 0.2s ease 0s;
+
+}
+.line1 {
+   position: absolute;
+   top: 9px;
+   transform: rotate(-45deg);
+   left: 0px;
+   width: 20px;
+   height: 2px;
+   background-color: black;
+}
+.line2 {
+   position: absolute;
+   top: 9px;
+   transform: rotate(45deg);
+   left: 0px;
+   width: 20px;
+   height: 2px;
+   background-color: black;
+}
+._yellow {
+   background-color: orange;
+}
+.okBtn {
+   margin-top: 10px;
+   display: block;
+   font-size: 14px;
+   background-color: #91CDEB;
+   color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: none;
+   padding: 8px 10px;
+   border-radius: 10px;
+   border-top-right-radius: 23px;
+   border-bottom-left-radius: 23px;
+   transition: all 0.3s ease 0s;
+}
+.note__subtitle textarea {
+   box-shadow: 1px 1px 5px #98339E;
+   border: none;
+   border-radius: 10px;
+   resize: none;
+   padding: 5px;
+}
